@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGO_USER": "kenadet",
+    "MONGO_PASSWORD": "v9PTuzLFff7V0Nwg",
+    "MONGO_DB": "note-app-db",
+    "APP_SECRET": "IyeKlTswKDobs/rg"
+  }
+}
