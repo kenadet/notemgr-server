@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node dist/js/app.js",
-    "postinstall": "tsc",
+    "postinstall": "npm run tsc",
     "watch-node": "nodemon dist/js/app.js",
     "watch-ts": "tsc -w"
   },
@@ -30,5 +30,6 @@
   },
   "engines": {
     "node": "20.5.0"
-  }
+  },
+  "tsc": "tsc"
 }
