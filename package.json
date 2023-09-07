@@ -4,8 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "tsc",
-    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+    "start": "node dist/js/app.js",
+    "postinstall": "tsc",
+    "watch-node": "nodemon dist/js/app.js",
+    "watch-ts": "tsc -w"
   },
   "author": "Kehinde Adetiloye",
   "license": "ISC",
