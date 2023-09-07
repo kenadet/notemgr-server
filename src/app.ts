@@ -8,7 +8,7 @@ import { ConnectionOptions } from "tls";
 
 const app: Express = express();
 
-const PORT: string | number = process.env.PORT || 4000;
+const PORT: string | number = process.env.PORT || 80;
 
 app.use(cors());
 app.use(bodyParser.json());
