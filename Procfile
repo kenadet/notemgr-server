@@ -1,1 +1,1 @@
-web: node dist/js/app.js
+worker: npm start
